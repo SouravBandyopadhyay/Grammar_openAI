@@ -1,9 +1,8 @@
 const express = require("express");
-const dotenv = require("dotenv");
+const dotenv = require("dotenv").config({ path: "./.env" });
 const cors = require("cors");
 const bodyparser = require("body-parser");
 const { Configuration, OpenAIApi } = require("openai");
-dotenv.config({ path: "./vars/.env" });
 const configuration = new Configuration({
   apiKey: process.env.API_KEY,
 });

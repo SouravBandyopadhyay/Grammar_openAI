@@ -26,7 +26,7 @@ function App() {
     const providedText = prompt.concat(
       " " + "Correct Grammar of the provided Text"
     );
-    // console.log(prompt.concat(" " + "Correct Grammar of the provided Text"));
+    console.log(prompt.concat(" " + "Correct Grammar of the provided Text"));
     axios
       .post("http://localhost:8080/chat", { prompt: providedText })
       .then((res) => {

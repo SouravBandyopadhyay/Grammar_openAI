@@ -23,4 +23,5 @@ dist-ssr
 *.sw?
 
 
-/varsgit 
+./.env
+.env
