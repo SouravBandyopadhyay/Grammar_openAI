@@ -28,9 +28,7 @@ function App() {
     );
     // console.log(prompt.concat(" " + "Correct Grammar of the provided Text"));
     axios
-      .post("https://grammer-checker-backend.onrender.com/chat", {
-        prompt: providedText,
-      })
+      .post("https://grammer-checker-backend.onrender.com/chat", { prompt: providedText })
       .then((res) => {
         setResponse(res.data);
       })
