@@ -10,8 +10,8 @@ function Footer() {
         <Text fontSize="md" color="gray.500">
           Made with ❤️ by Sourav Bandyopadhyay
         </Text>
-        {/* <Link
-          href="https://github.com/SouravBandyopadhyay/Quiz-Game"
+        <Link
+          href="https://github.com/SouravBandyopadhyay/Grammar_openAI"
           isExternal
         >
           <Button
@@ -25,7 +25,7 @@ function Footer() {
           >
             Github
           </Button>
-        </Link> */}
+        </Link>
       </Flex>
     </Box>
   );
