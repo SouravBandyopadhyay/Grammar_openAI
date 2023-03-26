@@ -37,8 +37,8 @@ function App() {
       });
   };
   return (
-    <div className="App">
-      <Heading as="h1" fontWeight={400} margin="auto">
+    <div className="App" >
+      <Heading as="h1" fontWeight={400} margin="auto" fontFamily={fontFamily}>
         Grammar Checker Integrated with ChatGPT
       </Heading>
       <Center marginTop={2}>
@@ -54,7 +54,7 @@ function App() {
           <option value="Courier New">Courier New</option>
         </Select>
       </Center>
-      <FormControl minH="40vh" p={1} width="70%" margin="auto">
+      <FormControl minH="40vh" p={1} width="70%" margin="auto" fontFamily={fontFamily}>
         <FormLabel margin="auto" textAlign="center" fontSize="xl" marginTop={3}>
           Type Text and Check its Correctness
           <Textarea
